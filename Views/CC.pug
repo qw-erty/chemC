@@ -1,0 +1,361 @@
+
+doctype html 
+html
+  head
+    link(rel="icon", href="/static/logo1.png")
+    title CHEMCHORD
+    style 
+      include ../static/styling.css
+   
+link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css")
+link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css", integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==", crossorigin="anonymous", referrerpolicy="no-referrer")
+link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css", integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==", crossorigin="anonymous", referrerpolicy="no-referrer")
+link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css", integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==", crossorigin="anonymous", referrerpolicy="no-referrer")
+link(href="https://unpkg.com/aos@2.3.1/dist/aos.css", rel="stylesheet")
+link(rel="icon", href="/static/logo1.png")
+script(src="https://kit.fontawesome.com/a076d05399.js")
+script(src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js")
+//  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+//  <div id="loading"></div> 
+//  <div id="preloader"></div>  
+//
+   <div class="loader">
+    <img src="./pre_AdobeExpress.gif" alt="">
+  </div> 
+//  <div id="loading"></div>
+#content
+  .nav
+    nav.navbar
+      .content
+        .name
+          a(href="http://ipu.ac.in/usct/index.php", target="_blank")
+            img(src="/static/GGSIPUlogo.png", width="70px", height="60px")
+          |    
+
+          a(href="/CC")
+            img(src="/static/logo1.png", width="50px", height="60px")
+        ul.menu-list
+          .icon.cancel-btn
+            i.fas.fa-times
+          li
+            a(href="./CC") Home
+          li
+            a(href="./About") About Us
+          li
+            a(href="./Sche") Event Schedule
+          li
+            a(href="./event") Events
+          li
+            a(href="./Comp") Competitions
+          li
+            a(href="./sponsors") Sponsors
+          li
+            button#btn(onclick="audio.play();")
+              a(href="./contact") Register Now
+        .icon.menu-btn
+          i.fas.fa-bars
+  .icon-bar
+    a.facebook(href="https://www.facebook.com/profile.php?id=100086972134357", target="blank")
+      i.fa-brands.fa-facebook-f
+    a.instagram(href="https://www.instagram.com/chemchord_usct/", target="blank")
+      i.fa-brands.fa-instagram
+    a.linkedin(href="https://www.linkedin.com/in/chemchord-usct-862926254", target="blank")
+      i.fa-brands.fa-linkedin-in
+  .clg
+    h1 UNIVERSITY SCHOOL OF CHEMICAL TECHNOLOGY
+    h2 GURU GOBIND SINGH INDRAPRASTHA UNIVERSITY
+  .clg1
+    h1 UNIVERSITY SCHOOL OF CHEMICAL TECHNOLOGY
+    h2 GURU GOBIND SINGH INDRAPRASTHA UNIVERSITY
+  .pres
+    .pres
+      p presents
+      p.
+        
+        
+      h1 CHEMCHORD
+      //  <p>04 - 05<br>JANUARY</p> 
+    .pre
+      p
+        | 04 - 05
+        br
+        | JANUARY
+    //
+       <p>presents<p>
+          <h1>CHEMCHORD</h1>
+          <div class="words">
+            <span>09-10</span>
+            <span>10-11</span>
+            <span>11-12</span>
+            <span>12-13</span>
+            <span>13-14</span>
+            <span>14-15</span>
+          </div><br><p>DECEMBER</p>
+      </div> 
+    //
+       <div class="leftside">
+      <ul>
+        <li><i class="fa-brands fa-facebook"></i></li>
+        <li><i class="fa fa-instagram"></i></li>
+        <li><i class="fa fa-linkedin"></i></li>
+      </ul>
+      </div> 
+    .ev
+      h1 EVENTS
+      section#slider
+        input#s1(type="radio", name="slider")
+        input#s2(type="radio", name="slider")
+        input#s3(type="radio", name="slider", checked)
+        input#s4(type="radio", name="slider")
+        input#s5(type="radio", name="slider")
+        label#slide1(for="s1")
+          img(src="/static/Screenshot (187).png", height="150%", width="95%")
+          //  <img src="./1.png" height="120%" width="100%"> 
+        label#slide2(for="s2")
+          img(src="/static/Screenshot (217).png", height="150%", width="95%")
+          //  <img src="./w2.jpg" height="120%" width="100%"> 
+        label#slide3(for="s3")
+          img(src="/static/Screenshot (186).png", width="90%")
+
+          //  <img src="./w3.jpg" height="120%" width="100%"> 
+        label#slide4(for="s4")
+          img(src="/static/Screenshot (219).png", height="150%", width="95%")
+        label#slide5(for="s5")
+          img(src="/static/Screenshot (190).png", height="150%", width="95%")
+    .comp
+      h1 COMPETITIONS
+    .comp-area
+      .single
+        img(src="/static/Screenshot (220).png", alt, width="225px", height="275px")
+        //  <img src="./w.jpg" alt=""> 
+        .on-text
+          h2 DETAILS
+          a(href="/Comp")
+            i.fa-solid.fa-link
+      .single
+        img(src="/static/Screenshot (221).png", alt, width="225px", height="275px")
+        .on-text
+          h2 DETAILS
+          a(href="/Comp")
+            i.fa-solid.fa-link
+      .single
+        img(src="/static/Screenshot (222).png", alt, width="225px", height="275px")
+        .on-text
+          h2 DETAILS
+          a(href="/Comp")
+            i.fa-solid.fa-link
+      .single
+        img(src="/static/Screenshot (223).png", alt, width="225px", height="275px")
+        .on-text
+          h2 DETAILS
+          a(href="/Comp")
+            i.fa-solid.fa-link
+    .vis
+      h1 VISION
+    .visp
+      p “By having a regenerative view, we will reinvigorate every aspect of the chemistry sustainably by envisaging the future”.
+    .mis
+      h1 MISSION
+    .misp
+      p
+        | ‘Chemchord' involves four dimensions and through Chemchord we are aiming to elevate the ordinary by redefining the dimensions with an unprecedented aim. First, 
+        strong Regenerate
+        |  which involves bettering the fundamentals of last year’s CHEMCHORD and we now look forward to remoulding traditional values and basics with a perspective of new technology and science. After two years we are back with new energy and strength which got lost in the pandemic. Our spirit is to manifest self-awareness, a sense of responsibility, and accept innovation to boost the process of 
+        strong reinvigoration
+        | . This gives us the power to stand up and make a difference by modifying and passing on ancestral knowledge. Most of the products that we consume can be traced to some form of chemical process which to our mind involves the consumption of nature’s resources that are fast depleting. This also leads to damaging the environment if not handled sustainably. It is here that the role of 
+        strong Sustainable
+        |  Chemistry comes to the fore. And hence we 
+        strong envisage
+        |  a hazardless and sustainable future for our chemical industries ensuring growth and development.
+
+        //
+           <br><strong><div class="next">FOUR DIMENSIONS</strong><br>
+              <span class="next"><strong>Regenerate:</strong></span>
+              <br><span class="pa">Regenerate which involves bettering the fundamentals of last year’s CHEMCHORD and we now look forward to remoulding traditional values and basics with a perspective of new technology and science.
+              <br><span class="next"><strong>Reinvigorate:</strong></span>
+              <br>After two years we are back with new energy and strength which got lost in the pandemic. Our spirit is to manifest self-awareness, a sense of responsibility, and accept innovation to boost the process of reinvigoration. This gives us the power to stand up and make a difference by modifying and passing on the ancestral knowledge.
+              <br><span class="next"><strong>Sustainable:</strong></span>
+              <br>CHEMCHORD aims to reduce chemical related impact on human health and virtually eliminate contamination of the environment through dedicated, sustainable prevention measures. One of the key component is ENVIRONMENT TECHNOLOGY also referred to as ‘green’ or ‘clean’ technology and it aims to conserve, monitor and reduce the negative impact of technology on the environment and the consumption of resources. Sustainable Chemistry cannot be conducted in the absence of Green Chemistry.
+              <br><span class="next"><strong>Envisage:</strong></span>
+              <br>In 21st century, there is tremendous industrial development in India. Most of them are chemical industries. Safety of everything and everybody should be on top priority. Many times we come across the accidents as well as hazards due to unsafe working in the chemical environment. The wide ranges of chemicals are used in research laboratories of the organizations like colleges, universities, national laboratories and industries, each with its own inherent hazards. An understanding of the potential hazards and precautions required in handling of chemicals is of utmost importance in preventing exposure to chemicals and mishaps. We all will have to demonstrate our knowledge of basic laboratory safety and practices. Use of Personal Protective Equipment’s in laboratory to protect us from chemical hazards is of the great importance.
+              <br>Through CHEMCHORD we want to make everyone aware of hazards and use of safety equipments. We want to make everyone understand the fragility of the environment and the importance of its protection, understanding and consciousness toward the biophysical environment and its problems, including human interactions and effects.
+              <br>Hence we envisage a sustainable and hazardous world 
+              <br>Envisaging allows us to get a visual of the reality of what will be based on the choices we are making now which later can lead to improved quality of life and provide inspiration and opportunity through outreach, rehabilitation and research.</div>
+              </p> 
+    //
+       <footer>
+        <div class="container">
+          <div class="copyright-wrapper">
+            <p>Copyright &copy; 2022 University School of Chemical Technology. All rights reserved.</p>
+        </div>
+      </div>
+      </footer> 
+  footer
+    .con
+      .wrapper
+        .footer-widget
+          a(href="/CC")
+            img.logof(src="/static/logo1.png", height="150px")
+          //
+             <ul class="socials">
+                      <li>
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                      </li>
+                    </ul> 
+        .footer-widget
+          h2 Quick Links
+          ul.links
+            li
+              a(href="./About", target="blank") About Us
+            li
+              a(href="./Sche", target="blank") Event Schedule
+            li
+              a(href="./event", target="blank") Events
+            li
+              a(href="./Comp", target="blank") Competitions
+            li
+              a(href="./sponsors", target="blank") Sponsors
+            li
+              a(href="./contact", target="blank") Register Now
+        .footer-widget
+          h2 Contact Us
+          ul.links
+            li
+              a(href="./Team", target="blank") Website Team
+            li
+              a(href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSDZNzSMhgQxtTXgXSwhRwdwBCLdldnKFXhmPfCCmBqTxtxXvTWgqphrpcgwWbDlJWLkjHZC", target="blank") Email ID-1
+            li
+              a(href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHvnwfPvxxGWGHmPsgBhVfRDmZhMxCbzVBDtlDmBwTRfmMTnfpvbRJjWbRHNTKrMCGJlbCL", target="blank") Email ID-2
+            li
+              a( target="blank") 8527416412
+            li
+              a( target="blank") 9650072744
+            li
+              a( target="blank") 9643629095
+        .footer-widget
+          h2 Address
+          ul.links
+            li
+              a(href="https://goo.gl/maps/QP9qFwBgtjmcdgZr8", target="blank") B-Block,
+            li
+              a(href="https://goo.gl/maps/QP9qFwBgtjmcdgZr8", target="blank") GGSIPU
+            li
+              a(href="https://goo.gl/maps/QP9qFwBgtjmcdgZr8", target="blank") Sector-16 C
+            li
+              a(href="https://goo.gl/maps/QP9qFwBgtjmcdgZr8", target="blank") Dwarka
+            li
+              a(href="https://goo.gl/maps/QP9qFwBgtjmcdgZr8", target="blank") New Delhi
+            li
+              a(href="https://goo.gl/maps/QP9qFwBgtjmcdgZr8", target="blank") 110078
+      .copyright-wrapper
+        p Copyright © Chemchord 2023, University School of Chemical Technology
+  
+  script 
+    include ../static/cc.js
+  //- script(src="D:/Ccc.js")
+  //- script(src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js")
+  //
+     <script>
+          AOS.init();
+          </script> 
+  //
+     // var preloader = document.getElementById('loader');
+          // function preLoaderHandler(){
+          //     preloader.style.display = 'none';
+          // }
+        //   var preloader = document.getElementById('loading');
+        //   function myFunction(){
+        //     preloader.style.display = 'none';
+        //   } 
+  //
+     // </script>
+        // <script> 
+  //
+     //   var preloader = document.getElementById('loading');
+        //   function myFunction(){
+        //     preloader.style.display = 'none';
+        //   }
+        // </script> 
+  //
+     <script>
+            var swiper = new Swiper(".mySwiper", {
+              effect: "cube",
+              grabCursor: true,
+              cubeEffect: {
+                shadow: true,
+                slideShadows: true,
+                shadowOffset: 20,
+                shadowScale: 0.94,
+              },
+              pagination: {
+                el: ".swiper-pagination",
+              },
+            });
+          </script> 
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js", integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==", crossorigin="anonymous", referrerpolicy="no-referrer")
+  script(src="https://unpkg.com/aos@2.3.1/dist/aos.js")
+  //
+     <script>
+      var loader = document.getElementById("preloader");
+    
+      window.addEventListener("load", function(){
+        loader.style.display = "none";
+      })
+    </script> 
+  //
+     <script>
+      var preloader = document.getElementById("loading");
+    
+      function myFunction(){
+    preloader.style.display = "none";
+      }
+    </script> 
+  //
+     <script>
+      var preloader = document.getElementById('loader');
+      function preLoaderHandler(){
+          preloader.style.display = 'none';
+      }
+    </script> 
+  script(type="text/javascript").
+    
+    const audio = new Audio();
+      audio.src = "./mixkit-video-game-retro-click-237.wav";
+    
+  script(type="text/javascript").
+    
+    var loader;
+    function loadNow(opacity) {
+      if(opacity <= 0) {
+        displayContent();
+      }
+      else{
+        loader.style.opacity = opacity;
+        window.setTimeout(function(){
+          loadNow(opacity - 0.05)
+        }, 100);
+      }
+    }
+    function displayContent(){
+      loader.style.display = 'none';
+      document.getElementById('content').style.display = 'block';
+    }
+    
+    document.addEventListener("DOMContentLoaded", function() {
+      loader = document.getElementById('loader');
+      loadNow(1);
+    })
+    
+//
+   <div class="slider">
+      <span style="--i:1;"><img src="./w.jpg" alt=""></span>
+      <span style="--i:2;"><img src="./w.jpg" alt=""></span>
+      <span style="--i:3;"><img src="./w.jpg" alt=""></span>
+      <span style="--i:4;"><img src="./w.jpg" alt=""></span>
+      <span style="--i:5;"><img src="./w.jpg" alt=""></span>
+      <span style="--i:6;"><img src="./w.jpg" alt=""></span>
+      <span style="--i:7;"><img src="./w.jpg" alt=""></span>
+      <span style="--i:8;"><img src="./w.jpg" alt=""></span>
+  </div> 

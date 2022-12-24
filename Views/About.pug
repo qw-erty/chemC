@@ -1,0 +1,283 @@
+//- meta(charset="UTF-8")
+//- meta(http-equiv="X-UA-Compatible", content="IE=edge")
+//- meta(name="viewport", content="width=device-width,initial-scale=1") 
+doctype html 
+html 
+  head 
+    link(rel="icon", href="/static/logo1.png")
+    title About Us
+    style 
+      include ../static/aboutstyle.css
+link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css")
+link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css", integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==", crossorigin="anonymous", referrerpolicy="no-referrer")
+link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css", integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==", crossorigin="anonymous", referrerpolicy="no-referrer")
+link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css", integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==", crossorigin="anonymous", referrerpolicy="no-referrer")
+link(href="https://unpkg.com/aos@2.3.1/dist/aos.css", rel="stylesheet")
+link(rel="icon", href="/static/logo1.png")
+
+script(src="https://kit.fontawesome.com/a076d05399.js")
+script(src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js")
+.content
+  .nav
+    nav.navbar
+      .content
+        .name
+          a(href="http://ipu.ac.in/usct/index.php", target="_blank")
+            img(src="/static/GGSIPUlogo.png", width="70px", height="60px")
+          |    
+
+          a(href="/CC")
+            img(src="/static/logo1.png", width="50px", height="60px")
+        ul.menu-list
+          .icon.cancel-btn
+            i.fas.fa-times
+          li
+            a(href="./CC") Home
+          li
+            a(href="./About") About Us
+          li
+            a(href="./Sche") Event Schedule
+          li
+            a(href="./event") Events
+          li
+            a(href="./Comp") Competitions
+          li
+            a(href="./sponsors") Sponsors
+          li
+            button
+              a(href="./contact") Register Now
+        .icon.menu-btn
+          i.fas.fa-bars
+  //
+     <div class="slider">
+        <div class="slide">
+            <img src="./IMG_6134.CR2.jpg" alt="">
+            <img src="./IMG_6138.CR2.jpg" alt="">
+            <img src="./IMG_6139.CR2.jpg" alt="">
+            <img src="./IMG_6140.CR2.jpg" alt="">
+            <img src="./IMG_6147.CR2.jpg" alt="">
+            <img src="./IMG_6158.CR2.jpg" alt="">
+            <img src="./IMG_6166.CR2.jpg" alt="">
+            <img src="./IMG_6183.CR2.jpg" alt="">
+            <img src="./IMG_6211.CR2.jpg" alt="">
+            <img src="./IMG_6218.CR2.jpg" alt="">
+            <img src="./IMG_6243.JPG" alt="">
+            <img src="./IMG_6257.JPG" alt="">
+            <img src="./IMG_6258.JPG" alt="">
+            <img src="./IMG_6270.JPG" alt="">
+            <img src="./IMG_6340.JPG" alt="">
+            <img src="./IMG_6342.JPG" alt="">
+            <img src="./IMG_6422.CR2.jpg" alt="">
+            <img src="./IMG_6460.CR2.jpg" alt="">
+            <img src="./IMG_6551.CR2.jpg" alt="">
+            <img src="./IMG_6554.CR2.jpg" alt="">
+            <img src="./IMG_6556.CR2.jpg" alt="">
+            <img src="./IMG_6919.CR2.jpg" alt="">
+            <img src="./IMG_6929.CR2.jpg" alt="">
+            <img src="" alt="">
+        </div>
+        <div class="navigation">
+            <i class="fa-solid fa-square-caret-left"></i>
+            <i class="fa-solid fa-square-caret-right"></i>
+        </div>
+    </div> 
+  .slider
+    .slide-track
+      .slide
+        img(src="/static/IMG_6134.CR2.jpg")
+      .slide
+        img(src="/static/IMG_6138.CR2.jpg")
+      .slide
+        img(src="/static/IMG_6139.CR2.jpg")
+      .slide
+        img(src="/static/IMG_6145.CR2.jpg")
+      .slide
+        img(src="/static/IMG_6147.CR2.jpg")
+      .slide
+        img(src="/static/IMG_6158.CR2.jpg")
+      .slide
+        img(src="/static/IMG_6166.CR2.jpg")
+      .slide
+        img(src="/static/IMG_6183.CR2.jpg")
+      .slide
+        img(src="/static/IMG_6211.CR2.jpg")
+      .slide
+        img(src="/static/IMG_6218.CR2.jpg")
+      .slide
+        img(src="/static/IMG_6243.JPG")
+      .slide
+        img(src="/static/IMG_6257.JPG")
+      .slide
+        img(src="/static/IMG_6270.JPG")
+      .slide
+        img(src="/static/IMG_6340.JPG")
+      .slide
+        img(src="/static/IMG_6422.CR2.jpg")
+      .slide
+        img(src="/static/IMG_6554.CR2.jpg")
+      .slide
+        img(src="/static/IMG_6919.CR2.jpg")
+      .slide
+        img(src="/static/IMG_6912.CR2.jpg")
+  .icon-bar
+    a.facebook(href="https://www.facebook.com/profile.php?id=100086972134357", target="blank")
+      i.fa-brands.fa-facebook-f
+    a.instagram(href="https://www.instagram.com/chemchord_usct/", target="blank")
+      i.fa-brands.fa-instagram
+    a.linkedin(href="https://www.linkedin.com/in/chemchord-usct-862926254", target="blank")
+      i.fa-brands.fa-linkedin-in
+  .img-slider
+    .slide
+      img(src)
+  .usct
+    h1 ABOUT US
+  .usctp
+    //  <p>The University School of Chemical Technology, Dwarka, New Delhi, was established by the University as a result, becoming the second institution of its sort in this region of the nation after IIT Delhi. The institution was founded with the dual objectives of producing highly qualified professionals and staying up to date with R&E initiatives in the quickly increasing field of chemical technology. The university's current B Tech/M Tech (Integrated) curriculum was developed in consultation with the IIT and other prominent national and international organisations. The carefully structured program seeks to provide students with a broad understanding of a range of major chemical engineering subjects through electives and exposure to the business sector through hands-on training in the lab and industrial settings, or by arranging events such as Chemchord. To develop and implement curricula that provide students with a world-class education. The university emphasises the importance of staying up to date with the most recent innovations in the sector by continuously upgrading this curriculum and calling industrialists to get their thoughts. The institution promotes strong, long-lasting relationships with the business community. With so many various resources available on campus, interdisciplinary test areas will emerge over time.</p> 
+    p The University School of Chemical Technology, Dwarka, New Delhi, was established by GGSIPU as a result, becoming the second institution of its sort in this region of the nation after IIT Delhi. The institution was founded with the dual objectives of producing highly qualified professionals and staying up to date with R&E initiatives in the rapidly increasing chemical technology field. It was conceived as a teaching and affiliating University with the explicit objective to facilitate and promote studies, research, and extension work in areas of professionals and technical education. There are 10 clubs and their aim is to provide university students a platform to explore and unravel their creative genius through various cultural and visual art forms and activities. The university's current B Tech/M Tech (Integrated) curriculum was developed in consultation with the IIT and other prominent national and international organizations. The carefully structured program seeks to provide students with a broad understanding of a range of major chemical engineering subjects through electives and exposure to the business sector through hands-on training in the lab and industrial settings, or by arranging events such as Chemchord. With so many various resources available on campus, interdisciplinary test areas will emerge over time. It aims at providing academic outreach as well as ties to the local industries and chemical engineering professionals
+  .chc
+    h1 ABOUT CHEMCHORD
+  //
+     <div class="chcp">
+            <p>The University School of Chemical Technology, Dwarka, New Delhi, was established by the University as a result, becoming the second institution of its sort in this region of the nation after IIT Delhi. The institution was founded with the dual objectives of producing highly qualified professionals and staying up to date with R&E initiatives in the quickly increasing field of chemical technology. The university's current B Tech/M Tech (Integrated) curriculum was developed in consultation with the IIT and other prominent national and international organisations. The carefully structured program seeks to provide students with a broad understanding of a range of major chemical engineering subjects through electives and exposure to the business sector through hands-on training in the lab and industrial settings, or by arranging events such as Chemchord. To develop and implement curricula that provide students with a world-class education. The university emphasises the importance of staying up to date with the most recent innovations in the sector by continuously upgrading this curriculum and calling industrialists to get their thoughts. The institution promotes strong, long-lasting relationships with the business community. With so many various resources available on campus, interdisciplinary test areas will emerge over time.</p>
+          </div> 
+  .chcp
+    video(src="/static/Jan teaser.mp4", alt, controls, poster="/static/Screenshot (185).png")
+    //  <video src="./prvcc.mp4" alt="" controls></video> 
+    .txt
+      //  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque tenetur iste eveniet voluptatibus nam. Laudantium natus, quas facilis corporis ducimus corrupti non dolorem harum neque voluptatum aut nam delectus nisi excepturi veritatis, temporibus illo doloremque soluta quae illum debitis sequi tenetur? Tenetur, modi laboriosam laudantium vitae dicta maiores voluptate eius! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum corrupti voluptatum, esse perspiciatis aliquid dolorem error, amet repellendus fugit iste nam? Quam, tenetur qui! Veritatis repellendus autem corrupti quisquam, magnam error quos quae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem id rerum officia et sit reiciendis quaerat ullam nemo velit, cumque fugiat consequatur magnam perferendis assumenda odit est deleniti neque? Quasi, iusto consequuntur possimus laudantium nam magnam praesentium dolorem sint porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem corporis accusantium magnam  Repellendus modi fugiat, debitis nobis ad ab suscipit perferendis at? Architecto cupiditate delectus suscipit id minus doloribus ab magni. Placeat quos eius perspiciatis veniam quaerat vel, quo maiores itaque adipisci sit fuga numquam sunt dolorem neque modi ut nemo atque iste harum ipsam. Quaerat voluptatibus enim, deserunt eaque natus quo in minus reprehenderit aperiam iure ducimus quia maxime sint. Earum dolorum nostrum dolor reiciendis debitis, adipisci vel! Nostrum suscipit velit odit consequuntur similique atque, numquam vitae rerum.</p> 
+      p
+        | CHEMCHORD is the annual technical festival of Guru Gobind Singh Indraprastha University, organized by the University School of Chemical Technology.
+        br
+        | In its hunt for academic excellence and innovative ideas, the fest offers a range of competitions across the engineering departments.
+        br
+        br
+        | It focuses to provide the students with a High Quality experience, to inspire and inculcate critical thinking among them by enhancing their problem solving skills, and providing one-on-one interaction with the experts . The motivation behind CHEMCHORD is to provide the students an opportunity to build and enhance our perspective and broaden our horizon, exchange ideas ,collaborate and learn and have fun all under the same roof and at the maximum possible levels. CHEMCHORD creates a platform for the members to uplift their technical quotients by emphasizing the need of being up to date with the most recent developments in the field.
+  footer
+    .con
+      .wrapper
+        .footer-widget
+          a(href="/CC")
+            img.logof(src="/static/logo1.png", height="150px")
+          //
+             <ul class="socials">
+                        <li>
+                          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                          <a href=""><i class="fa-brands fa-instagram"></i></a>
+                          <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                      </ul>  
+        .footer-widget
+          h2 Quick Links
+          ul.links
+            li
+              a(href="./CC", target="blank") Home
+            li
+              a(href="./Sche", target="blank") Event Schedule
+            li
+              a(href="./event", target="blank") Events
+            li
+              a(href="./Comp", target="blank") Competitions
+            li
+              a(href="./sponsors", target="blank") Sponsors
+            li
+              a(href="./contact", target="blank") Register Now
+        .footer-widget
+          h2 Contact Us
+          ul.links
+            li
+              a(href="/Team", target="blank") Website Team
+            li
+              a(href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSDZNzSMhgQxtTXgXSwhRwdwBCLdldnKFXhmPfCCmBqTxtxXvTWgqphrpcgwWbDlJWLkjHZC", target="blank") Email ID-1
+            li
+              a(href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHvnwfPvxxGWGHmPsgBhVfRDmZhMxCbzVBDtlDmBwTRfmMTnfpvbRJjWbRHNTKrMCGJlbCL", target="blank") Email ID-2
+            li
+              a( target="blank") 8527416412
+            li
+              a( target="blank") 9650072744
+            li
+              a( target="blank") 9643629095
+        .footer-widget
+          h2 Address
+          ul.links
+            li
+              a(href="https://goo.gl/maps/QP9qFwBgtjmcdgZr8", target="blank") B-Block,
+            li
+              a(href="https://goo.gl/maps/QP9qFwBgtjmcdgZr8", target="blank") GGSIPU
+            li
+              a(href="https://goo.gl/maps/QP9qFwBgtjmcdgZr8", target="blank") Sector-16 C
+            li
+              a(href="https://goo.gl/maps/QP9qFwBgtjmcdgZr8", target="blank") Dwarka
+            li
+              a(href="https://goo.gl/maps/QP9qFwBgtjmcdgZr8", target="blank") New Delhi
+            li
+              a(href="https://goo.gl/maps/QP9qFwBgtjmcdgZr8", target="blank") 110078
+      .copyright-wrapper
+        p Copyright © Chemchord 2023, University School of Chemical Technology
+  //
+    //-  <footer>
+        <div class="container"> 
+  //
+     <div class="wrapper">
+                <div class="footer-widget">
+                    <a href=""><img src="./logo1.png" class="logo" width="20%"></a>
+                    <ul class="socials">
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100086972134357"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/chemchord_usct/"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/chemchord-usct-862926254"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-widget">
+                    <h3>Quick Links</h3>
+                    <ul class="links">
+                        <li><a href="#">Departments</a></li>
+                        <li><a href="#">Labs</a></li>
+                        <li><a href="#">Website Team</a></li>
+                        <li><a href="#">Anti-Ragging Policy</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-widget">
+                    <h3>Explore</h3>
+                    <ul class="links">
+                        <li><a href="#">Rules</a></li>
+                        <li><a href="#">Campus Life</a></li>
+                        <li><a href="#">Hostel Life</a></li>
+                        <li><a href="#">Institute Newsletter</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-widget">
+                    <h3>Address</h3>
+                    <ul class="links">
+                        <li><a href="#">B-Block,</a></li>
+                        <li><a href="#">GGSIPU</a></li>
+                        <li><a href="#">Sector-16C,</a></li>
+                        <li><a href="#">Dwarka</a></li>
+                        <li><a href="#">New Delhi-110078</a></li>
+                    </ul>
+                </div>
+            </div> 
+  //
+     <div class="copyright-wrapper">
+                <p>Copyright &copy; 2022 University School of Chemical Technology. All rights reserved.</p>
+            </div>
+        </div>
+    </footer> 
+  script 
+    include ../static/cc.js
+//- // script(src="D:/ChemChord/static/cc.js")*
+
+script(src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js")
+script(src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js", integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==", crossorigin="anonymous", referrerpolicy="no-referrer")
+script(src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js", integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==", crossorigin="anonymous", referrerpolicy="no-referrer")
+script(src="https://unpkg.com/aos@2.3.1/dist/aos.js")
+//
+   <script type="text/javascript">
+      const nextBtn=document.
+  </script> 
